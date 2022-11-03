@@ -34,4 +34,4 @@ Le script donne également le choix à l'utilisateur d'installer :
           <p>chmod +x Debian-LAMP-DHCP-DNS.py<br>
           ./Debian-LAMP-DHCP-DNS.py<br></p>
     2. Le faire exécuter par python3 :<br>
-          <q>python3 Debian-LAMP-DHCP-DNS.py</q>
+          <p>python3 Debian-LAMP-DHCP-DNS.py</p>
