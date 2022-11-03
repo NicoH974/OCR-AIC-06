@@ -13,10 +13,10 @@ Sur la machine sur laquelle il est lancé, ce script a pour objectif d'installer
 - un serveur DHCP, avec un pool
 - un serveur DNS lié au DHCP (Dynamic DNS) 
 
-Les configurations dépendent des choix renseignés par l'utilisateur dans un questionnaire initial :
+Les configurations dépendent des choix renseignés par l'utilisateur dans un questionnaire initial (il est nécessaire de respecter le modèle de réponse proposé entre crochets, sous peine de dysfonctionnement) :
 - nom de la machine
 - nom du domaine
-- adresses IP de la machine et de sa passerelle, masque de sous-réseau
+- adresses IP de la machine et de sa passerelle, la première étant notée avec son masque de sous-réseau au format CIDR
 - étendue du "pool" DHCP
 
 
