@@ -1,6 +1,5 @@
 # OCR-AIC-06
-OCR-AIC-06 - "Participez à la vie de la communauté Open Source"
-Version du 27 octobre 2022
+OCR-AIC-06 - "Participez à la vie de la communauté Open Source" - Version du 27 octobre 2022
 
 ### Environnement d'exécution ###
 Le script Debian-LAMP-DHCP-DNS.py est :
