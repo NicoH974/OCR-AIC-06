@@ -31,6 +31,7 @@ Le script donne également le choix à l'utilisateur d'installer :
 1. Charger le script sur la machine cible
 2. Au choix :
     1. Rendre le script exécutable, puis le lancer :<br>
+          <p style="color:red;">This is a paragraph.</p>
           chmod +x Debian-LAMP-DHCP-DNS.py<br>
           ./Debian-LAMP-DHCP-DNS.py<br>
     2. Le faire exécuter par python3 :<br>
