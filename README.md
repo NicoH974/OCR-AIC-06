@@ -10,10 +10,10 @@ Le script Debian-LAMP-DHCP-DNS.py est :
 
 ### Objectif principal ###
 Sur la machine sur laquelle il est lancé, ce script a pour objectif d'installer et de configurer :
-- un serveur DHCP
+- un serveur DHCP, avec un pool
 - un serveur DNS lié au DHCP (Dynamic DNS) 
 
-Les configurations dépendent des choix renseignés par l'utilisateur lors d'un questionnaire initial :
+Les configurations dépendent des choix renseignés par l'utilisateur dans un questionnaire initial :
 - nom de la machine
 - nom du domaine
 - adresses IP de la machine et de sa passerelle, masque de sous-réseau
