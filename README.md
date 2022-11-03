@@ -3,7 +3,7 @@ OCR-AIC-06 - "Participez à la vie de la communauté Open Source" - Version du 2
 
 ### Environnement d'exécution ###
 Le script Debian-LAMP-DHCP-DNS.py est :
-- rédigé pour être lancé par Python3 
+- destiné à être traité par Python3 
 - fonctionnel sur une version récente de Debian (testé sur versions 10 - Buster et 11 - Bullseye)
 - exécutable tant par le compte "root" que par un "compte sudo"
 
