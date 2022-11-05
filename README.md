@@ -36,4 +36,6 @@ Le script donne également le choix à l'utilisateur d'installer :
         ./Debian-LAMP-DHCP-DNS.py
         ```
     2. Le faire exécuter par python3 :
-        ```python3 Debian-LAMP-DHCP-DNS.py```
+        ```
+        python3 Debian-LAMP-DHCP-DNS.py
+        ```
