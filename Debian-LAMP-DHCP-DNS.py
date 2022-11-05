@@ -126,7 +126,8 @@ if inst_lamP == 'o':
   txt_justif("Installation de PHP")
   deb_inst('php')
   deb_inst('libapache2-mod-php')
-  os.system('service apache2 restart')
+  if inst_lAmp == 'o':
+    os.system('service apache2 restart')
   if inst_laMp == 'o':
     deb_inst('php-mysql')
 
@@ -315,14 +316,15 @@ service bind9 restart""")
 # Finalisation #
 ################
 
-print_ligne()
-txt_justif('Création index.php pour test PHP')
-file=open("/var/www/html/index.php", 'w')
-file.writelines("""<?php
-        phpinfo();
-?>
-""")
-file.close()
+if inst_lAmp == 'o' and inst_lamP == 'o':
+  print_ligne()
+  txt_justif('Création index.php pour test PHP')
+  file=open("/var/www/html/index.php", 'w')
+  file.writelines("""<?php
+          phpinfo();
+  ?>
+  """)
+  file.close()
 
 print_ligne()
 print("Fini ! Je redémarre avec l'@IP {0}.{1}".format(net_part, srv_addr))
