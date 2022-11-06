@@ -3,16 +3,16 @@ OCR-AIC-06 - "Participez à la vie de la communauté Open Source" - Version du 5
 > Projet sous [**GNU General Public License v.3.0**](LICENSE.md)
 
 ### Environnement d'exécution ###
-Le script Debian-LAMP-DHCP-DNS.py est :
+Le script [Debian-LAMP-DHCP-DNS.py](Debian-LAMP-DHCP-DNS.py) est :
 - destiné à être traité par Python3 
-- fonctionnel sur une version récente de Debian (testé sur versions 10 - Buster et 11 - Bullseye)
+- fonctionnel sur une version récente de [Debian](https://www.debian.org/distrib/index.fr.html) (testé sur versions 10 - Buster et 11 - Bullseye)
 - exécutable tant par le compte "root" que par un "compte sudo"
 
 
 ### Objectif principal ###
 Sur la machine sur laquelle il est lancé, ce script a pour objectif d'installer et de configurer :
-- un serveur DHCP, avec un pool
-- un serveur DNS lié au DHCP (Dynamic DNS) 
+- un serveur DHCP (isc-dhcp-server), avec un pool
+- un serveur DNS (bind9), lié au DHCP (Dynamic DNS) 
 
 Les configurations dépendent des choix renseignés par l'utilisateur dans un questionnaire initial (il est nécessaire de respecter le modèle de réponse proposé entre crochets, sous peine de dysfonctionnement) :
 - nom de la machine
